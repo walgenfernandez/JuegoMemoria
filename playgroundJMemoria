@@ -1,0 +1,19 @@
+//: Juego de Memoria
+import UIKit
+
+for vc in 0...100 {
+    if vc % 5 == 0 {
+        print("# \(vc) + Bingo!!!")
+    }
+    if vc % 2 == 0 {
+        print("# \(vc) + par!!!")
+    }
+    else {
+        print("# \(vc) + impar!!!")
+    }
+    
+    if (vc>=30 && vc<=40) {
+        print("# \(vc) + Viva Swift!!!")
+    }
+}
+
